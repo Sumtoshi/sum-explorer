@@ -12,7 +12,7 @@ An open source block explorer written in node.js.
 
 ### Requirements
 
-### Install Guide: https://github.com/Sumtoshi/sum-explorer/blob/master/requirements.txt
+### Install Guide: https://github.com/Sumtoshi/sum-explorer/blob/master/requirements.md
 
 *  node.js >= 8.17.0 (12.14.0 is advised for updated dependencies)
 *  mongodb 4.2.x
