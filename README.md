@@ -10,13 +10,15 @@ An open source block explorer written in node.js.
 
 *Note: If you would like your instance mentioned here contact me*
 
-### Requires
+### Requirements
+
+### Install Guide: https://github.com/Sumtoshi/sum-explorer/blob/master/requirements.txt
 
 *  node.js >= 8.17.0 (12.14.0 is advised for updated dependencies)
 *  mongodb 4.2.x
-*  *coind
+*  sumcoind
 
-### Create database
+### Create Mongodb database
 
 Enter MongoDB cli:
 
@@ -28,15 +30,15 @@ Create databse:
 
 Create user with read/write access:
 
-    > db.createUser( { user: "iquidus", pwd: "3xp!0reR", roles: [ "readWrite" ] } )
+    > db.createUser( { user: "Secure_User_Name", pwd: "Secure_Password", roles: [ "readWrite" ] } )
 
 *Note: If you're using mongo shell 4.2.x, use the following to create your user:
 
-    > db.addUser( { user: "username", pwd: "password", roles: [ "readWrite"] })
+    > db.addUser( { user: "Secure_User_Name", pwd: "Secure_Password", roles: [ "readWrite"] })
 
 ### Get the source
 
-    git clone https://github.com/iquidus/explorer explorer
+    git clone https://github.com/Sumtoshi/sum-explorer.git
 
 ### Install node modules
 
@@ -134,7 +136,8 @@ Where [SIZE] is an integer higher than the default.
 ### License
 
 Copyright (c) 2015, Iquidus Technology  
-Copyright (c) 2015, Luke Williams  
+Copyright (c) 2015, Luke Williams
+Copyright (c) 2016, Sumtoshi
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
