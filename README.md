@@ -32,11 +32,11 @@ Create databse:
 
 Create user with read/write access: (CHANGE the Usernames and Passwords, dont't just copy and paste the example)
 
-    > db.createUser( { user: "Secure_User_Name", pwd: "Secure_Password", roles: [ "readWrite" ] } )
+    > db.createUser( { user: user: "iquidus", pwd: "3xp!0reR", roles: [ "readWrite" ] } )
 
 *Note: If you're using mongo shell 4.2.x, use the following to create your user:
 
-    > db.addUser( { user: "Secure_User_Name", pwd: "Secure_Password", roles: [ "readWrite"] })
+    > db.addUser( { user: user: "iquidus", pwd: "3xp!0reR", roles: [ "readWrite"] })
 
 ### Get the explorer source code 
 
