@@ -50,6 +50,10 @@ html
             $("#lblBlockcount").text(json.data[0].blockcount + ' blocks');
             $("#lblX1").text(' ');
           }});
+       $.ajax({url: '/ext/sumcoinprice', success: function(json){
+          console.log(json);
+          $("#lastPrice").text(parseFloat(json).toFixed(2));
+       }});
         }
         $('.block-last-next').tooltip({
           animation: true,
